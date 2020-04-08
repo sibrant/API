@@ -18,14 +18,8 @@ ap.add_argument("-b", "--baseline", required=False,
 	help="Temporal baseline for coherence", default=6)
 args = vars(ap.parse_args())
 
-#creodias_user='data1@cloudferro.com'
-#creodias_password='QjpwWaoFo5'
-creodias_user='svanbeijma@cloudferro.com'
-creodias_password='sybsyb79'
-
-os.chdir('D:/OneDrive/Documents/Work/CloudFerro/Projects/DIAS_CAP/DataSearch/NLD-GER_190611')
-
-os.chdir('D:\OneDrive\Documents\Work\CloudFerro\Projects\DIAS_CAP\DataSearch\_CreodiasOrdering')
+creodias_user='{CREODIAS_ID}'
+creodias_password='{CREODIAS_PW}'
 
 input_data = {'order_name': 'Sen2cor_newTest',
         'priority': 1,
